@@ -1,9 +1,10 @@
 {
     "name": "Dota 2 dla Początkujących",
     "short_name": "Dota 2",
+    "description": "This is for you",
     "display": "fullscreen",
-    "background_color": "#121212",
-    "theme_color": "#ff9800",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
     "scope": "/",
     "start_url":"/",
     "icon": [
