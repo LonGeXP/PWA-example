@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dota 2 dla początkujących</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="medium.css">
+<link rel="stylesheet" href="large.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Witaj w świecie Dota 2!</h1>
+        <p>Dota 2 to jedna z najpopularniejszych gier MOBA na świecie.</p>
+        <img src="logo.png" alt="Dota 2 Logo" class="logo">
+        <h2>Podstawowe role</h2>
+        <div class="hero" onclick="showRole('Carry')">
+            <img src="carry.png" alt="Carry">
+            <strong>Carry:</strong> Główny zabójca, zyskuje moc w późnej fazie gry.
+        </div>
+        <div class="hero" onclick="showRole('Support')">
+            <img src="support.png" alt="Support">
+            <strong>Support:</strong> Wspiera drużynę, kupuje przedmioty użytkowe.
+        </div>
+        <div class="hero" onclick="showRole('Mid')">
+            <img src="mid.png" alt="Mid">
+            <strong>Mid:</strong> Bohater środkowej linii, często ma duży wpływ na grę.
+        </div>
+        <div class="hero" onclick="showRole('Offlaner')">
+            <img src="offlaner.png" alt="Offlaner">
+            <strong>Offlaner:</strong> Odporna postać, która przeżywa trudne sytuacje.
+        </div>
+        <h2>Jak zacząć?</h2>
+        <p>1. Pobierz Dota 2 z Steam.</p>
+        <p>2. Zagraj samouczek.</p>
+        <p>3. Spróbuj różnych ról, aby znaleźć swoją ulubioną.</p>
+        <h1>Bla-bla-bla</h1>
+        <p>
+            Dota 2 to jedna z najbardziej skomplikowanych i wymagających gier MOBA na świecie. 
+            Każdy mecz to unikalne wyzwanie, w którym kluczowe są strategia, współpraca oraz umiejętności mechaniczne. 
+            Gra oferuje ponad 120 bohaterów, z których każdy ma swoje unikalne umiejętności, role i style gry. 
+            Każdy bohater może być budowany na wiele różnych sposobów w zależności od aktualnej mety, kompozycji drużyny oraz indywidualnych preferencji gracza.
+            <br><br>
+            Warto również wspomnieć o scenie e-sportowej. Dota 2 jest jedną z najważniejszych gier w świecie e-sportu. 
+            The International, czyli coroczny turniej organizowany przez Valve, posiada największą pulę nagród w historii gier komputerowych, 
+            często przekraczającą kilkadziesiąt milionów dolarów. Wielkie turnieje przyciągają miliony widzów, a profesjonalni gracze 
+            zdobywają sławę porównywalną do tradycyjnych sportowców.
+            <br><br>
+            Dota 2 to jednak nie tylko e-sport. To także społeczność milionów graczy, którzy codziennie rywalizują, uczą się i rozwijają swoje umiejętności. 
+            Gra wymaga cierpliwości i determinacji, ale daje ogromną satysfakcję z każdego wygranego meczu, 
+            każdej dobrze wykonanej akcji i każdego spektakularnego zwycięstwa.
+        </p>
+        
+    </div>
+    <link rel="manifest" href="manifest.json">
+<script>
+    if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("sw.js")
+            .then(() => console.log("Service Worker registered"))
+            .catch(err => console.error("Service Worker failed", err));
+    }
+</script>
+
+    <script src="script.js"></script>
+</body>
+</html>

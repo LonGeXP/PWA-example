@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    max-width: 90%;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0.75);  /* затемненный фон */
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); /* тень */
+}
+
+h1 {
+    color: #ff9800;
+    font-size: 1.8em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* тень у текста */
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+    transition: background 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hero img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 140px;
+    margin: 10px 0;
+}
+
+@media (max-width: 374px) {  
+    .container {
+        max-width: 95%;
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 8px;
+    }
+
+    .hero img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+}

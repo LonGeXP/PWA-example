@@ -1,0 +1,25 @@
+@media (min-width: 375px) and (max-width: 1024px) {
+    .container {
+        max-width: 85%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 12px;
+    }
+
+    .hero img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+}
