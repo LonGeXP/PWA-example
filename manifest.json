@@ -6,7 +6,7 @@
     "background_color": "#ffffff",
     "theme_color": "#000000",
     "scope": "/",
-    "start_url":"/",
+    "start_url":"https://longexp.github.io/PWA-example/",
     "icons": [
       {
         "src": "/icon-512x512.png",
