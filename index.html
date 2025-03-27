@@ -8,6 +8,13 @@
 <link rel="stylesheet" href="medium.css">
 <link rel="stylesheet" href="large.css">
 <link rel="manifest" href="manifest.json">
+<script>
+    if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("sw.js")
+            .then(() => console.log("Service Worker registered"))
+            .catch(err => console.error("Service Worker failed", err));
+    }
+</script>
 <meta name="theme-color" content="#007bff">
 
 </head>
@@ -55,14 +62,7 @@
         </p>
         
     </div>
-    <link rel="manifest" href="manifest.json">
-<script>
-    if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("sw.js")
-            .then(() => console.log("Service Worker registered"))
-            .catch(err => console.error("Service Worker failed", err));
-    }
-</script>
+
 
     <script src="script.js"></script>
 </body>
