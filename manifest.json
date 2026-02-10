@@ -5,18 +5,12 @@
     "display": "fullscreen",
     "background_color": "#ffffff",
     "theme_color": "#000000",
-    "scope": "/",
-    "start_url":"https://longexp.github.io/PWA-example/",
+    "scope": "./",
+    "start_url": "./",
     "icons": [
       {
-        "src": "/icon-512x512.png",
+        "src": "icon-512x512.png",
         "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "any"
-      },
-      {
-        "src": "/icon-512x512.png",
-        "sizes": "192x192",
         "type": "image/png",
         "purpose": "any"
       }
